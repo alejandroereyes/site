@@ -5,7 +5,7 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #62CD98 !important}
 
 .default_color_text{color: #2196F3 !important}
 
@@ -17,14 +17,14 @@
 
 
 #index-banner {
-    min-height: 632px;
-    max-height: 864px;
+    min-height: 400px;
+    max-height: 400px;
     position: relative;
-    background-color: #2196F3;
+    background-image: url(../img/escheresque/escheresque.png)
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
@@ -112,7 +112,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #62CD98;
 }
 
 .cd-headline.type b {
