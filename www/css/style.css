@@ -16,12 +16,13 @@
 
 #intro, #work, #team {padding-top: 4rem;}
 
-
 #index-banner {
     min-height: 400px;
     max-height: 400px;
     position: relative;
-    background-image: url(../img/escheresque/escheresque.png)
+    background-image: url(../img/me_in_shade.jpg);
+    background-size: cover;
+
 }
 
 #nav_f{
@@ -158,6 +159,7 @@ nav ul a {
 .cd-headline.type b.is-visible {
     visibility: visible;
 }
+
 
 .cd-headline.type i {
     position: absolute;
@@ -298,4 +300,8 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+.my-bio {
+
 }
