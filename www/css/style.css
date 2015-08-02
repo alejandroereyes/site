@@ -20,8 +20,8 @@
     min-height: 400px;
     max-height: 400px;
     position: relative;
-    background-image: url(../img/me_in_shade.jpg);
-    background-size: cover;
+    background-image: url(../img/NH1nLsV.png);
+    background-size: auto;
 
 }
 
@@ -37,6 +37,11 @@
     color:white;
 }
 
+.type-words {
+    padding: 0;
+    height: 130px;
+}
+
 .brand-logo{
     position: absolute;
     color: #fff;
@@ -50,6 +55,23 @@
 }
 
 .brand-logo.show-initials-on-sm { display: none; }
+
+.between-nav-n-hero {
+    height: 10px;
+
+    background-color: #9E9E9E;
+}
+
+.my-pic {
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/me_face_shot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
