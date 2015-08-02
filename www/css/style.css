@@ -46,7 +46,10 @@
     font-weight: 100;
     padding: 0;
     letter-spacing: 7px;
+
 }
+
+.brand-logo.show-initials-on-sm { display: none; }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
@@ -250,12 +253,18 @@ nav ul a {
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
+
+
 @media only screen and (max-width: 480px) {
     .text_h {
         padding: 4% 0;
         font-size: 5em;
         font-weight: 100;
         color: white;
+    }
+
+    .brand-logo.show-initials-on-sm {
+        display: inline;
     }
 }
 

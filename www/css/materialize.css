@@ -5011,7 +5011,10 @@ nav {
         left: 0;
         width: 100%;
         text-align: center;
-        z-index: 0; } }
+        z-index: 0; }
+       @media only screen and (max-width: 480px) {
+  nav .brand-logo { display: none; }
+}}
     nav .brand-logo.right {
       right: 0.5rem;
       padding: 0; }
@@ -5205,7 +5208,8 @@ small {
       line-height: 1.112rem; } }
   @media only screen and (min-width: 480px) {
     .flow-text {
-      font-size: 1.296rem; } }
+      font-size: 1.296rem; }
+    .brand-logo { display: none; } }
   @media only screen and (min-width: 120px) {
     .flow-text {
       line-height: 1.216rem; } }
@@ -7773,3 +7777,4 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
   .picker--time .picker__box {
     margin-bottom: 5em; }
  }
+
